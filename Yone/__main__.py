@@ -164,7 +164,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="➕️ Masukan Gaclex Ke Group ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
@@ -179,7 +179,7 @@ def start(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Gaclex Commands", callback_data="help_back"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
